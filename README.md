@@ -1,7 +1,7 @@
 # MLTest
 
 # Description
-This test was using react/node in order to create an scalable application an api with node was created as well as a front end project based on react and node, since on one of the main requirements was to make this app seo friendly, it was created using Server Side Rendering and redux to handle the status of the app.
+This test was developed using react/node in order to create an scalable application an api with node was created as well as a front end project based on react and node, since on one of the main requirements was to make this app seo friendly, it was created using Server Side Rendering and redux to handle the status of the app.
 
 # SSR Implementation
 The approach selected to implement this app was basically using node to generate the html with the use of the router dataloader functions the data will be merged with the html and then the final html will be retrieved to the browser in the other hand redux was used to keep the state of the application basically an store is created in node with the current state of the application then this state created in the server is injected into the retrieved html to the client so the client application in the browser should be able to hydrate html and initialize client store based on the server store.
