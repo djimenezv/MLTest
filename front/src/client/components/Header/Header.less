@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    background-color: #ffe600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    padding: 0.625em 0;
+}
+
+.content__img {
+    //height: 2.5rem;
+    img {
+        height: 100%;
+    }
+}
+
+.content__search {
+    position: relative;
+    input {
+        width: 100%;
+        border-width: 0;
+        font-size: 1.125rem;
+        padding: 0.45em;
+        color:#999999;
+        border-radius: 3px;
+    }
+    input:focus{
+        outline: none;
+    }
+    img {
+        position: absolute;
+        right: 0;
+        padding: 0.625em;
+        background-color: EEEEEE;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
