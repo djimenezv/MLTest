@@ -14,7 +14,7 @@ UI is based on pages or container components which have the logic needed to get 
 After clonning the repo there will be two folders one with the api and the other with the ui application in order to execute each of the components we only need to open each folder using console and follow steps below
 
 - run npm install
-- run npm run dev
+- run npm dev
 
 After following steps above the node server will be running in http://localhost:8000 and client application will be running in http://localhost:3000, above I'm adding screenshoots with how the application will looks when you will open it in the browser
 
